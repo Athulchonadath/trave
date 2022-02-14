@@ -1,0 +1,788 @@
+
+#nn{
+    background: transparent;
+    /* background-image: linear-gradient(to right,#00efd1,#00ACEA); */
+}
+#drop li a{
+    color: white;
+    font-size: medium;
+}
+#drop li a:hover{
+    color: rgb(58, 173, 173);
+}
+#search{
+    background-color: #00ACEA;
+    background: transparent;
+    border-color: #00efd1;
+    color: #00efd1;
+}
+#search-b{
+    background: transparent;
+}
+#search:hover{
+    background-image: linear-gradient(to right,#00efd1,#00ACEA);
+    color: white;
+}
+#drop1 li a{
+    background: transparent;
+    color: black;
+}
+.dropdown-menu {
+    background: transparent;
+    color: black;
+
+}
+.nav-link{
+    color: #00ACEA;
+}
+#drop{
+    background: transparent;
+}
+#state:hover{
+    background-image: linear-gradient(to right,#00efd1,#00ACEA);
+    font-size: 20px;
+    font-style: italic;
+}
+#search-b{
+    outline: none;
+    border: none;
+}
+/* --card-- */
+
+#first-card{
+box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #fff;   
+border-radius: 30px;
+
+}
+#first-card img{
+border-radius: 30px 30px 0px 0px;
+box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #fff;   
+}
+#navbar-1{
+}
+#read{
+border-color: rgb(24, 37, 53);
+color: rgb(24, 37, 53);
+}
+#read:hover{
+background-color: rgb(24, 37, 53);
+color: white;
+}
+#must{
+font-family:  Georgia, serif;
+}
+#card-2{
+width: 100%;
+height: auto;
+background-color: whitesmoke;
+}
+
+/* -----f */
+
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Open Sans:400,600,800');
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+input,
+p,
+a {
+font-family: "Open Sans";
+margin: 0px;
+}
+
+a,
+a:hover,
+a:focus {
+color: inherit;
+}
+
+
+/* .container-fluid,
+.container {
+max-width: 1200px;
+} */
+
+.card-container {
+padding: 100px 0px;
+-webkit-perspective: 1000;
+perspective: 1000;
+}
+
+.profile-card-1 {
+background-color: #FFF;
+border-radius: 10px;
+box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+background-image: url(../img/profile-bg-1.jpg);
+background-position: center;
+padding-top: 100px;
+overflow: hidden;
+position: relative;
+margin: 10px auto;
+cursor: pointer;
+max-width: 300px;
+}
+
+.profile-card-1 .profile-content {
+position: relative;
+background-color: #FFF;
+padding: 70px 20px 20px 20px;
+text-align: center;
+}
+
+.profile-card-1 .profile-img {
+position: absolute;
+height: 100px;
+left: 0px;
+right: 0px;
+z-index: 10;
+top: -50px;
+transition: all 0.25s linear;
+transform-style: preserve-3d;
+}
+
+.profile-card-1 .profile-img img {
+height: 100px;
+margin: auto;
+border-radius: 50%;
+border: 5px solid #FFF;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card-1 .profile-name {
+font-size: 18px;
+font-weight: bold;
+color: #021830;
+}
+
+.profile-card-1 .profile-address {
+color: #777;
+font-size: 12px;
+margin: 0px 0px 15px 0px;
+}
+
+.profile-card-1 .profile-description {
+font-size: 13px;
+padding: 5px 10px;
+color: #777;
+}
+
+.profile-card-1 .profile-icons .fa {
+margin: 5px;
+color: #777;
+}
+
+.profile-card-1:hover {
+box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card-1:hover .profile-img {
+transform: rotateY(180deg);
+}
+
+.profile-card-2 {
+max-width: 300px;
+max-height: 400px;
+background-color: red;
+box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+background-position: center;
+overflow: hidden;
+position: relative;
+margin: 10px auto;
+cursor: pointer;
+border-radius: 10px;
+}
+
+.profile-card-2 img {
+transition: all linear 0.25s;
+
+}
+
+.profile-card-2 .profile-name {
+position: absolute;
+left: 30px;
+bottom: 70px;
+font-size: 30px;
+color: #FFF;
+text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+font-weight: bold;
+transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons {
+position: absolute;
+bottom: 30px;
+right: 30px;
+color: #FFF;
+transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-username {
+position: absolute;
+bottom: 50px;
+left: 30px;
+color: #FFF;
+font-size: 13px;
+transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons .fa {
+margin: 5px;
+}
+
+.profile-card-2:hover img {
+filter: grayscale(100%);
+}
+
+.profile-card-2:hover .profile-name {
+bottom: 80px;
+}
+
+.profile-card-2:hover .profile-username {
+bottom: 60px;
+}
+
+.profile-card-2:hover .profile-icons {
+right: 40px;
+}
+#kk{
+width: 100%;
+height: 400px;
+}
+
+
+#b1:hover{
+color: #00ACEA;
+
+}
+footer{
+width: 100%;
+height: 100px;
+background-color: rgb(24, 29, 29);
+color: lightgrey;
+}
+#marvel{
+    background: linear-gradient(60deg, #26c6da, #0097a7);
+    color: white;
+}
+#ic i{
+    font-size: xx-large;
+}
+
+/* ----f--- */
+
+#c-cont img{
+border-radius: 10px;
+width: 100%;
+height: 100%;
+box-shadow: 5px 5px 18px #b1b1b1, -3px -3px 8px #fff;   
+}
+#fest img{
+    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #fff;   
+}
+#hours-in{
+    box-shadow: 6px 6px 16px #8a8888, -3px -3px 8px #fff;   
+    
+}
+#hours-in img{
+    box-shadow: 6px 6px 16px #b1b1b1, -3px -3px 8px #fff;   
+}
+#fest{
+    box-shadow: 4px 4px 10px #868484, -4px -4px 10px #fff;   
+}
+
+/* --card--sec-- */
+
+.section-cards {
+    z-index: 3;
+    position: relative;
+}
+
+.section{
+    background-color: #fff;
+    padding: 60px 0 30px 0;
+}
+
+
+/*---------------------------------------------------------------------- /
+CARDS
+----------------------------------------------------------------------- */
+
+.card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card .card-image {
+    height: 60%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    pointer-events: none;
+}
+
+.card .card-image .card-caption {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: #fff;
+    font-size: 1.3em;
+    text-shadow: 0 2px 5px rgba(33, 33, 33, 0.5);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.img-raised {
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card .ftr {
+    margin-top: 15px;
+}
+
+.card .ftr div {
+    display: inline-block;
+}
+
+.card .ftr .author {
+    color: #888;
+}
+
+.card .ftr .stats {
+    float: right;
+    line-height: 30px;
+}
+
+.card .ftr .stats {
+    position: relative;
+    top: 1px;
+    font-size: 14px;
+}
+
+
+/* ============ Card Table ============ */
+
+.table {
+    margin-bottom: 0px;
+}
+
+.card .table {
+    padding: 15px 30px;
+}
+
+.card .table-primary {
+    background: linear-gradient(60deg, #ab47bc, #7b1fa2);
+}
+
+.card .table-info {
+    background: linear-gradient(60deg, #26c6da, #0097a7);
+}
+
+.card .table-success {
+    background: linear-gradient(60deg, #66bb6a, #388e3c);
+}
+
+.card .table-warning {
+    background: linear-gradient(60deg, #ffa726, #f57c00);
+}
+
+.card .table-danger {
+    background: linear-gradient(60deg, #ef5350, #d32f2f);
+}
+
+.card .table-rose {
+    background: linear-gradient(60deg, #ec407a, #c2185b);
+}
+
+.card [class*="table-"] {
+    color: #FFFFFF;
+    border-radius: 6px;
+}
+
+.card [class*="table-"] .card-caption a,
+.card [class*="table-"] .card-caption,
+.card [class*="table-"] .icon i {
+    color: #FFFFFF;
+}
+
+.card [class*="table-"] .icon i {
+    border-color: rgba(255, 255, 255, 0.25);
+}
+
+.card [class*="table-"] .author a,
+.card [class*="table-"] .ftr .stats,
+.card [class*="table-"] .category,
+.card [class*="table-"] .card-description {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.card [class*="table-"] .author a:hover,
+.card [class*="table-"] .author a:focus,
+.card [class*="table-"] .author a:active {
+    color: #FFFFFF;
+}
+
+.card [class*="table-"] h1 small,
+.card [class*="table-"] h2 small,
+.card [class*="table-"] h3 small {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+/* ============ Card Blog ============ */
+
+.card-blog {
+    margin-top: 30px;
+}
+
+.card-blog .card-caption {
+    margin-top: 5px;
+}
+
+.card-blog .card-image + .category {
+    margin-top: 20px;
+}
+
+.card-raised {
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+/* ----card-- */
+.section-cards {
+    z-index: 3;
+    position: relative;
+}
+
+.section-gray {
+    background: #E5E5E5;
+    padding: 60px 0 30px 0;
+}
+
+
+/*---------------------------------------------------------------------- /
+CARDS
+----------------------------------------------------------------------- */
+
+.card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card .card-image {
+    height: 60%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    pointer-events: none;
+}
+
+.card .card-image .card-caption {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: #fff;
+    font-size: 1.3em;
+    text-shadow: 0 2px 5px rgba(33, 33, 33, 0.5);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.img-raised {
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card .ftr {
+    margin-top: 15px;
+}
+
+.card .ftr div {
+    display: inline-block;
+}
+
+.card .ftr .author {
+    color: #888;
+}
+
+.card .ftr .stats {
+    float: right;
+    line-height: 30px;
+}
+
+.card .ftr .stats {
+    position: relative;
+    top: 1px;
+    font-size: 14px;
+}
+
+
+/* ============ Card Table ============ */
+
+.table {
+    margin-bottom: 0px;
+}
+
+.card .table {
+    padding: 15px 30px;
+}
+
+.card .table-primary {
+    background: linear-gradient(60deg, #ab47bc, #7b1fa2);
+}
+
+.card .table-info {
+    background: linear-gradient(60deg, #26c6da, #0097a7);
+}
+
+.card .table-success {
+    background: linear-gradient(60deg, #66bb6a, #388e3c);
+}
+
+.card .table-warning {
+    
+    background: linear-gradient(60deg, #ffa726, #f57c00);
+}
+
+.card .table-danger {
+    background: linear-gradient(60deg, #ef5350, #d32f2f);
+}
+
+.card .table-rose {
+    background: linear-gradient(60deg, #ec407a, #c2185b);
+}
+
+.card [class*="table-"] {
+    color: #FFFFFF;
+    border-radius: 6px;
+}
+
+.card [class*="table-"] .card-caption a,
+.card [class*="table-"] .card-caption,
+.card [class*="table-"] .icon i {
+    color: #FFFFFF;
+}
+
+.card [class*="table-"] .icon i {
+    border-color: rgba(255, 255, 255, 0.25);
+}
+
+.card [class*="table-"] .author a,
+.card [class*="table-"] .ftr .stats,
+.card [class*="table-"] .category,
+.card [class*="table-"] .card-description {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.card [class*="table-"] .author a:hover,
+.card [class*="table-"] .author a:focus,
+.card [class*="table-"] .author a:active {
+    color: #FFFFFF;
+}
+
+.card [class*="table-"] h1 small,
+.card [class*="table-"] h2 small,
+.card [class*="table-"] h3 small {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+/* ============ Card Blog ============ */
+
+.card-blog {
+    margin-top: 30px;
+}
+
+.card-blog .card-caption {
+    margin-top: 5px;
+}
+
+.card-blog .card-image + .category {
+    margin-top: 20px;
+}
+
+.card-raised {
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ============ Card Background ============ */
+
+.card-background {
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.card-background .table {
+    position: relative;
+    z-index: 2;
+    min-height: 280px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 440px;
+    margin: 0 auto;
+}
+
+.card-background .category,
+.card-background .card-description,
+.card-background small {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.card-background .card-caption {
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.card-background:after {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0;
+    top: 0;
+    table: "";
+    background-color: rgba(0, 0, 0, 0.56);
+    border-radius: 6px;
+}
+
+
+/* ============ Card Profile ============ */
+
+/* .card-profile {
+    margin-top: 30px;
+    text-align: center;
+} */
+
+
+
+
+.card .author .avatar {
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.card .author a {
+    color: #333;
+    text-decoration: none;
+}
+
+.card .author a .ripple-cont {
+    display: none;
+}
+#view-btn:hover{
+    background-color:crimson;
+}
+#view-btn{
+    background-color: #00ACEA;
+    color: white;
+     box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #fff;   
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    width: 10%;
+    height: 5vh;
+}
+/* ////////////footer--link---.///// */
+#contact{
+    color: white;
+    font-size: medium;
+    margin-left: 2%;
+    font-weight: 200;
+}
+#contact{
+    transition: all 2s;
+}
+  
+#contact:after {
+    text-align: left;
+    content: '.';
+    margin: 0;
+    opacity: 0;
+}
+#contact:hover {
+    color: #021830;
+    z-index: 1;
+}
+#contact:hover:after {
+    z-index: -10;
+    animation: fill 1s forwards;
+    -webkit-animation: fill 1s forwards;
+    -moz-animation: fill 1s forwards;
+    opacity: 1;
+}
+footer{
+    font-size: small;
+    height: 10vh;
+}
+/* //////youtubesec---- */
+
+#chat{
+    width: 60px;
+    height: 60px;
+    background-color: #00ACEA;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    box-shadow: 0 5px 13px 0 rgba(0, 0, 0, 0.2), 0 14px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    top: 85%;
+    left: 90%;
+}
+#chat i{
+    color: white;
+    font-size: 30px;
+}
+#chat:hover{
+    background-color: red;
+    color: white;
+    transition: 0.2s  ease-in;
+
+}
+
+
+
